@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="password-div">
+            <textarea id="generated-password"></textarea>
+        </div>
+        <div id="content">
+            <input type="range" id="length-slider" min="1" max= "99" value="20" step="1">
+            <label id="length" for="length-slider">Length</label>
+            <br/>
+            <input type="checkbox" id="special-chars" checked>
+            <label for="special-chars">Special Characters</label>
+            <br/>
+            <input type="checkbox" id="lowercase-chars" checked>
+            <label for="lowercase-chars">Lowercase Characters</label>
+            <br/>
+            <input type="checkbox" id="uppercase-chars" checked>
+            <label for="uppercase-chars">Uppercase Characters</label>
+            <br/>
+            <input type="checkbox" id="numbers" checked>
+            <label for="numbers">Numbers</label>
+            <br/>
+            <button id="copy-btn">Copy Text to Clipboard</button>
+        </div>
+        <script src="password_generator.js" type="text/javascript"></script>
+    </body>
+
+</html>

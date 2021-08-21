@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+#content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#password-div{
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+textarea{
+    resize: none;
+}
+
+#generated-password{
+    width: 750px;
+    height: 25px;
+}
